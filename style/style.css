@@ -83,3 +83,71 @@
 .service-description{
     width: 50%;
 }
+.first-two-box{
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+    
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+   gap: 5px;
+   border-right: 2px solid red; 
+   padding-right: 20px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+
+.app-container{
+   display: flex;
+   justify-content: space-around;
+   width: 70%;
+   margin: auto;
+   padding: 20px;
+   background-color: red;
+   border-radius: 10px;
+   margin-top: 30px;
+   align-items: center;
+}
+.blog-container{
+    width: 80%;
+    margin: auto;
+    background-color: gray;
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+.card{
+    width: 220px;
+    height: 350px;
+    background-color: aqua;
+    box-shadow: 4px 8px 4px gray;
+    border-radius: 5px;
+}
+.blog-img{
+    width: 100%;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
